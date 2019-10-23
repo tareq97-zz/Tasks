@@ -7,6 +7,8 @@
 * Randomized the above two instruction to 
     * drop to drop_rand 
     * loop to loop_123.
+    
+Below steps show how the wasm interpreter is adapted with drop_rand and loop_123. 
 
 **STEP 1:** Find the file gen-s-parser.py in the [binaryen/scripts/gen-s-parser.py](https://github.com/WebAssembly/binaryen/tree/master/scripts)
 
