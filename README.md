@@ -25,7 +25,7 @@ Below steps show how the wasm interpreter is adapted with drop_rand and loop_123
 
       python gen-s-parser.py > ../src/gen-s-parser.inc
 
-The gen-s-parser.py run and emit C++ code.After the gen-s-parser.inc is generated, it is placed in the binaryen/src to
+The gen-s-parser.py run and emit C++ code.After the gen-s-parser.inc is generated, it is placed in the binaryen/src.
 
 **STEP 4:** Using cmake and instruction given in [binaryen](https://github.com/WebAssembly/binaryen) we can build all the tools supported by binaryen compiler such as wasm2js, wasm-opt , wasm-shell etc., [information regarding this tools is given in the [binaryen](https://github.com/WebAssembly/binaryen)]
 
