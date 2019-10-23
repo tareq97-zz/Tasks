@@ -8,8 +8,6 @@
     * drop to drop_rand 
     * loop to loop_123.
 
-Below steps show how the wasm interpreter is adapted with drop_rand and loop_123. This file can be regenerated using the gen-s-parser.py. By simply running the command python gen-s-parser.py
-
 **STEP 1:** Find the file gen-s-parser.py in the [binaryen/scripts/gen-s-parser.py](https://github.com/WebAssembly/binaryen/tree/master/scripts)
 
 **STEP 2:** Update the method named instruction_parser() in gen-s-parser.py file with below shown code. It will update the instruction with a tag [for example here the tag for drop is _rand and for loop it is _123]. So for now updated the code as shown below in the gen-s-parser.py file:
