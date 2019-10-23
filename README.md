@@ -30,9 +30,11 @@ The gen-s-parser.py run and emit C++ code.After the gen-s-parser.inc is generate
 **STEP 5:** After the tools are build use wasm-shell[which can load and interpret WebAssembly code] to check whether the binaryen compiler is adapted to changes or not. Here there two input files are taken one which fails the interpretation and other which passes interpretation successfully.
 
 [wasmbackend_copy : file which has instruction drop and loop](https://github.com/tareq97/Tasks/blob/master/math_functions/wasmbackend_copy.wast)--------Fails
+
 <img src="https://github.com/tareq97/Tasks/blob/master/screenshots/2.PNG">
 
 [wasmbackend_copy : file which has instruction drop_rand and loop_123](https://github.com/tareq97/Tasks/blob/master/math_functions/wasmbackend_copy-randomized_droploop.wast)--------Passes
+
 <img src="https://github.com/tareq97/Tasks/blob/master/screenshots/3.PNG">
 
 **NOTE**:
