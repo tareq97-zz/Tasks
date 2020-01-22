@@ -1,7 +1,17 @@
 
-# Papers
+# Papers Done
+
+* Randomized Instruction Set Emulation to Disrupt Binary Code Injection Attacks
+
+* On the Effectiveness of Address-Space Randomization
 
 
+* Preventing overflow attacks by memory randomization
+
+
+* Diversity is valuable Strategy: Avoid Unnecessary Consistency
+
+# Papers to be done
 * Emscripten: an LLVM-to-JavaScript compiler
   * Reference:Zakai, Alon. "Emscripten: an LLVM-to-JavaScript compiler." Proceedings of the ACM international conference companion on Object oriented programming systems languages and applications companion. ACM, 2011.
 
