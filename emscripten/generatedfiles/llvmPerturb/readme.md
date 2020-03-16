@@ -11,18 +11,18 @@ emcc -O1 -s WASM=1 -s ALLOW_MEMORY_GROWTH=1 /home/tareq/Desktop/sampleexp/alex_a
 emcc -O1 -s WASM=1 -s ALLOW_MEMORY_GROWTH=1 DemoKey_table_encrypt.c -o 1_attacks/2.html --preload-file DemoKey_table.bin
 ```
 ####Output:
-![alt text](https://github.com/tareq97/Tasks/blob/master/emscripten/generatedfiles/llvmPerturb/images/2.png")
+![alt text](https://github.com/tareq97/Tasks/blob/master/emscripten/generatedfiles/llvmPerturb/images/2.png)
 
 
 ```
 emcc -O1 -s WASM=1 -s ALLOW_MEMORY_GROWTH=1 nosuchcon_2013_whitebox_noenc_generator.c -o 1_attacks/3_2.html --preload-file wbt_noenc
 ```
 ####Output:
-![alt text]("https://github.com/tareq97/Tasks/blob/master/emscripten/generatedfiles/llvmPerturb/images/4.png")
+![alt text](https://github.com/tareq97/Tasks/blob/master/emscripten/generatedfiles/llvmPerturb/images/4.png)
 
 
 ```
 emcc -O1 -s WASM=1 -s ALLOW_MEMORY_GROWTH=1 nosuchcon_2013_whitebox_noenc.c -o 1_attacks/3_1.html --preload-file wbt_noenc
 ```
 ####Output:
-![alt text](https://github.com/tareq97/Tasks/blob/master/emscripten/generatedfiles/llvmPerturb/images/3.png")
+![alt text](https://github.com/tareq97/Tasks/blob/master/emscripten/generatedfiles/llvmPerturb/images/3.png)
